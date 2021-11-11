@@ -87,7 +87,7 @@
             <ul class="list-info">
                 <li class="item-info">
                     <p>Publisher ID:</p>
-                    <input type="text" placeholder="Product ID" name="" id="" class="input-info">
+                    <input type="text" placeholder="Publisher ID" name="" id="" class="input-info">
                 </li>
                 <li class="item-info">
                     <p>Publisher Name:</p>
