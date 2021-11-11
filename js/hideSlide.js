@@ -3,6 +3,6 @@ function hide(x){
         document.getElementById('card').style.display='block';
     }
     else{
-        document.getElementById('signup').style.display='none';
+        document.getElementById('card').style.display='none';
     }
 }
