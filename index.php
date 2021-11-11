@@ -106,10 +106,19 @@
                 $page = $_GET['page'];
                 if($page=="loginsignup"){
                     include_once("LoginSignUp.php");
-                    
+                    echo '  <style>
+                            .card{
+                                display: none;
+                            }
+                            </style>';
                 }
                 if($page=="management"){
                     include_once("Management.php");
+			echo '  <style>
+                            .card{
+                                display: none;
+                            }
+                            </style>';
                 }
                 
             }
