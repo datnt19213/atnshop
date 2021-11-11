@@ -53,7 +53,7 @@
             </button>
         </div>
         
-        <div class="card" style=" <?php if(isset($_GET['page'])){$page = $_GET['page']; if($page=="loginsignup" || $page == "management"){echo "display: none;";} ?>">
+        <div class="card">
   
             <div class="card_part card_part-one">
                 <img src="" alt="Image-1">
