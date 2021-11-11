@@ -233,7 +233,7 @@
         </div>
 
         <div id="sta" class="sta">
-            Hello world
+            Total Statistics of Shops
         </div>
     </div>
 </body>
