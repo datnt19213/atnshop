@@ -93,12 +93,11 @@
                 </ul>
             </div>
         </div> -->
-        <button id="manage" title="Add - Update - Delete - Statistic Management">
-		<a href="?page=management">
-		    <i class="fas fa-tasks"></i>
-		</a>
-        </button>
-
+	 <a href="?page=management">
+		<button id="manage" title="Add - Update - Delete - Statistic Management">
+			<i class="fas fa-tasks"></i>
+		</button>
+	</a>
         <button id="ontop" onclick="scrollToTop()">
             <i class="fas fa-chevron-circle-up"></i>
         </button>
