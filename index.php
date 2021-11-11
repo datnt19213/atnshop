@@ -10,6 +10,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="js/menubar.js"></script>
     <script src="js/scrollTop.js"></script>
+    <script src="js/hideSlide.js"></script>
 </head>
 <body>
     <!-- <?php
@@ -106,19 +107,9 @@
                 $page = $_GET['page'];
                 if($page=="loginsignup"){
                     include_once("LoginSignUp.php");
-                    echo '  <style>
-                            .card{
-                                display: none;
-                            }
-                            </style>';
                 }
                 if($page=="management"){
                     include_once("Management.php");
-			echo '  <style>
-                            .card{
-                                display: none;
-                            }
-                            </style>';
                 }
                 
             }
