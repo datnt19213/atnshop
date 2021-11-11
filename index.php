@@ -22,12 +22,12 @@
                 <i class="fas fa-bars"></i>
             </div>
             <ul class="menu-index">
-                <li class="menu-item"><a href="index.php">Home</a></li>
-                <li class="menu-item"><a href="?page=home">TechToys</a></li>
-                <li class="menu-item"><a href="?page=home">Normal Toys</a></li>
-                <li class="menu-item"><a href="?page=home">Popular Toys</a></li>
-                <li class="menu-item"><a href="?page=home">Type of Toys</a></li>
-                <li class="menu-item"><a href="?page=feedback">Feedback</a></li>
+                <li class="menu-item" onclick="hide(0)"><a href="index.php">Home</a></li>
+                <li class="menu-item" onclick="hide(0)"><a href="?page=home">TechToys</a></li>
+                <li class="menu-item" onclick="hide(0)"><a href="?page=home">Normal Toys</a></li>
+                <li class="menu-item"onclick="hide(0)"><a href="?page=home">Popular Toys</a></li>
+                <li class="menu-item"onclick="hide(0)"><a href="?page=home">Type of Toys</a></li>
+                <li class="menu-item"onclick="hide(2)"><a href="?page=feedback">Feedback</a></li>
                 <div class="search">
                     <input type="search" class="search-item">
                     <button class="searchButton-item">
@@ -37,13 +37,13 @@
             </ul>
             <div class="account">
                 <div class="account-info">
-                    <a class="account-in" href="?page=loginsignup" style="color: #fff; text-decoration: none; margin: 0px 2px;">Login</a>
-                    <a class="account-in" href="?page=loginsignup" style="color: #fff; text-decoration: none; margin: 0px 2px;">Signup</a>
+                    <a class="account-in" onclick="hide(2)" href="?page=loginsignup" style="color: #fff; text-decoration: none; margin: 0px 2px;">Login</a>
+                    <a class="account-in" onclick="hide(2)" href="?page=loginsignup" style="color: #fff; text-decoration: none; margin: 0px 2px;">Signup</a>
                     <!-- <u>Hi, </u> -->
                 </div>
                 <div class="account-icon">
                     <!-- <div class="default-user-icon"><i class="fa-solid fa-circle-user ico"></i></div> -->
-                    <a class="link-icon" href="?page=home"><img class="account-avatar" src="image/User-icon.jpg" alt="Account-avatar"></a>
+                    <a class="link-icon" onclick="hide(0)" href="?page=home"><img class="account-avatar" src="image/User-icon.jpg" alt="Account-avatar"></a>
                 </div>
             </div>
         </nav>
@@ -94,7 +94,7 @@
                 </ul>
             </div>
         </div> -->
-	 <a href="?page=management">
+	 <a href="?page=management" onclick="hide(2)">
 		<button id="manage" title="Add - Update - Delete - Statistic Management">
 			<i class="fas fa-tasks"></i>
 		</button>
