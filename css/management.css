@@ -155,7 +155,7 @@
 /* add cate */
 
 .add-cate{
-    
+    display: none;
     padding-left: 50px;
     margin-bottom: 50px;
 }
@@ -195,7 +195,7 @@
 /* add pub */
 
 .add-pub{
-    
+    display: none;
     padding-left: 50px;
     margin-bottom: 50px;
 }
@@ -235,7 +235,7 @@
 /* add shop */
 
 .add-shop{
-    
+    display: none;
     padding-left: 50px;
     margin-bottom: 50px;
 }
