@@ -94,8 +94,9 @@
             </div>
         </div> -->
         <button id="manage" title="Add - Update - Delete - Statistic Management">
-            <a href="?page=management"></a>
-            <i class="fas fa-tasks"></i>
+		<a href="?page=management">
+		    <i class="fas fa-tasks"></i>
+		</a>
         </button>
 
         <button id="ontop" onclick="scrollToTop()">
