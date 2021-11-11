@@ -26,11 +26,11 @@
                 <ul class="lg-list">
                     <li class="lg-info">
                         <p>Username:</p>
-                        <input type="text" class="lg-input">
+                        <input type="text" placeholder="Username" class="lg-input">
                     </li>
                     <li class="lg-info">
                         <p>Full Name:</p>
-                        <input type="text" class="lg-input">
+                        <input type="text" placeholder="Fullname" class="lg-input">
                     </li>
                     <li class="lg-info">
                         <p>Gender:</p>
@@ -39,27 +39,27 @@
                     </li>
                     <li class="lg-info">
                         <p>Age:</p>
-                        <input type="number" class="lg-input">
+                        <input type="number" placeholder="Age" class="lg-input">
                     </li>
                     <li class="lg-info">
                         <p>Address:</p>
-                        <input type="text" class="lg-input">
+                        <input type="text" placeholder="Address" class="lg-input">
                     </li>
                     <li class="lg-info">
                         <p>Email:</p>
-                        <input type="email" class="lg-input">
+                        <input type="email" placeholder="Email" class="lg-input">
                     </li>
                     <li class="lg-info">
                         <p>Phone:</p>
-                        <input type="number" class="lg-input">
+                        <input type="number" placeholder="Phone" class="lg-input">
                     </li>
                     <li class="lg-info">
                         <p>Password:</p>
-                        <input type="password" class="lg-input">
+                        <input type="password" placeholder="Password" class="lg-input">
                     </li>
                     <li class="lg-info">
                         <p>Confirm Password:</p>
-                        <input type="password" class="lg-input">
+                        <input type="password" placeholder="Confirm Password" class="lg-input">
                     </li>
                     <li class="lg-info">
                         <input type="checkbox" class="checkbtn" name="" id=""> Agree about the <a class="txt" href="" style="color:mediumblue;">policy statement</a>
