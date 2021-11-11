@@ -23,13 +23,25 @@
                 <input type="radio" name="radio" id="" onclick="choice(2)" class="radio-change-function">
                 <p class="radio-title">Delete products</p>
             </div>
-            <div class="statistic">
+            <div class="add-pub-radio">
                 <input type="radio" name="radio" id="" onclick="choice(3)" class="radio-change-function">
+                <p class="radio-title">Add Publisher</p>
+            </div>
+            <div class="add-cate-radio">
+                <input type="radio" name="radio" id="" onclick="choice(4)" class="radio-change-function">
+                <p class="radio-title">Add Category</p>
+            </div>
+            <div class="add-shop-radio">
+                <input type="radio" name="radio" id="" onclick="choice(5)" class="radio-change-function">
+                <p class="radio-title">Add Shop</p>
+            </div>
+            <div class="statistic">
+                <input type="radio" name="radio" id="" onclick="choice(6)" class="radio-change-function">
                 <p class="radio-title">Statistic</p>
             </div>
         </div>
         <div id="add" class="add">
-            <h1 style="text-align: center;">Add</h1>
+            <h1 style="text-align: center;">Add Product</h1>
             <ul class="list-info">
                 <li class="item-info">
                     <p>Product ID:</p>
@@ -62,6 +74,76 @@
                 <li class="item-info">
                     <p>Quantity:</p>
                     <input type="text" name="" placeholder="Quantity" id="" class="input-info">
+                </li>
+            </ul>
+            
+            <button class="sm-btn" type="submit">Add
+
+            </button>
+        </div>
+
+        <div id="add-pub" class="add-pub">
+            <h1 style="text-align: center;">Add Publisher</h1>
+            <ul class="list-info">
+                <li class="item-info">
+                    <p>Publisher ID:</p>
+                    <input type="text" placeholder="Product ID" name="" id="" class="input-info">
+                </li>
+                <li class="item-info">
+                    <p>Publisher Name:</p>
+                    <input type="text" name="" placeholder="Product Name" id="" class="input-info">
+                </li>
+            </ul>
+            
+            <button class="sm-btn" type="submit">Add
+
+            </button>
+        </div>
+
+        <div id="add-cate" class="add-cate">
+            <h1 style="text-align: center;">Add Category</h1>
+            <ul class="list-info">
+                <li class="item-info">
+                    <p>Category ID:</p>
+                    <input type="text" placeholder="Category ID" name="" id="" class="input-info">
+                </li>
+                <li class="item-info">
+                    <p>Category Name:</p>
+                    <input type="text" name="" placeholder="Category Name" id="" class="input-info">
+                </li>
+            </ul>
+            
+            <button class="sm-btn" type="submit">Add
+
+            </button>
+        </div>
+
+        <div id="add-shop" class="add-shop">
+            <h1 style="text-align: center;">Add Shop</h1>
+            <ul class="list-info">
+                <li class="item-info">
+                    <p>Shop ID:</p>
+                    <input type="text" placeholder="Shop ID" name="" id="" class="input-info">
+                </li>
+                <li class="item-info">
+                    <p>Shop Name:</p>
+                    <input type="text" name="" placeholder="Shop Name" id="" class="input-info">
+                </li>
+                <li class="item-info">
+                    <p>City:</p>
+                    <input type="text" name="" placeholder="City" id="" class="input-info">
+                </li>
+                <li class="item-info">
+                    <p>District:</p>
+                    <input type="text" name="" placeholder="District" id="" class="input-info">
+                </li>
+                <li class="item-info">
+                    <p>Ward:</p>
+                    <input type="text" name="" placeholder="Ward" id="" class="input-info">
+                </li>
+                <li class="item-info">
+                    <p>Description:</p>
+                    <input type="text" name="" placeholder="Description" id="" class="input-info">
                 </li>
             </ul>
             
