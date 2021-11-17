@@ -12,23 +12,23 @@
     <div id="wrapper">
         <div class="radio-container">
             <div class="add-radio">
-                <input type="submit" name="radio" checked id="" onclick="choice(0)" class="radio-change-function">
+                <input type="radio" name="radio" checked id="" onclick="choice(0)" class="radio-change-function">
                 <p class="radio-title">Add products</p>
             </div>
             <div class="update-radio">
-                <input type="submit" name="radio" id="" onclick="choice(1)" class="radio-change-function">
+                <input type="radio" name="radio" id="" onclick="choice(1)" class="radio-change-function">
                 <p class="radio-title">Update products</p>
             </div>
             <div class="delete-radio">
-                <input type="submit" name="radio" id="" onclick="choice(2)" class="radio-change-function">
+                <input type="radio" name="radio" id="" onclick="choice(2)" class="radio-change-function">
                 <p class="radio-title">Delete products</p>
             </div>
             <div class="add-pub-radio">
-                <input type="submit" name="radio" id="" onclick="choice(3)" class="radio-change-function">
+                <input type="radio" name="radio" id="" onclick="choice(3)" class="radio-change-function">
                 <p class="radio-title">Add Publisher</p>
             </div>
             <div class="add-cate-radio">
-                <input type="submit" name="radio" id="" onclick="choice(4)" class="radio-change-function">
+                <input type="radio" name="radio" id="" onclick="choice(4)" class="radio-change-function">
                 <p class="radio-title">Add Category</p>
             </div>
             <div class="add-shop-radio">
@@ -36,7 +36,7 @@
                 <p class="radio-title">Add Shop</p>
             </div>
             <div class="statistic">
-                <input type="submit" name="radio" id="" onclick="choice(6)" class="radio-change-function">
+                <input type="radio" name="radio" id="" onclick="choice(6)" class="radio-change-function">
                 <p class="radio-title">Statistic</p>
             </div>
         </div>
